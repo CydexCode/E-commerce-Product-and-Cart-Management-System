@@ -201,6 +201,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 Your Name - [@yourusername](https://github.com/yourusername) - email@example.com
 
-**Project Link:** [https://github.com/yourusername/react-shopping-cart](https://github.com/yourusername/react-shopping-cart)
+**Project Link:** [[https://github.com/yourusername/react-shopping-cart](https://github.com/CydexCode/E-commerce-Product-and-Cart-Management-System)]([https://github.com/yourusername/react-shopping-cart](https://github.com/CydexCode/E-commerce-Product-and-Cart-Management-System))
 
 ⭐ Remember to **star** this repository if you found it helpful!
