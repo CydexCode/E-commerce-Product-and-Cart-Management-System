@@ -1,6 +1,6 @@
 # Product and Cart Management System
 
-A modern shopping cart application built with React, Redux Saga, and Material UI. Features include product listing, cart management, and order processing with a clean, responsive UI.
+A modern Product and Cart Management System built with .NET , React, Redux Saga, and Material UI. Features include product listing, cart management, and order processing with a clean, responsive UI.
 
 Demo : 
 
