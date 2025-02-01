@@ -4,7 +4,7 @@ A modern Product and Cart Management System built with .NET , React, Redux Saga,
 
 Demo : 
 
-**User Guid:** [[https://github.com/yourusername/react-shopping-cart](https://github.com/CydexCode/E-commerce-Product-and-Cart-Management-System)]
+**User Guid:** [[https://github.com/CydexCode/E-commerce-Product-and-Cart-Management-System/wiki/User-Guide](https://github.com/CydexCode/E-commerce-Product-and-Cart-Management-System/wiki/User-Guide)]
 
 
 ## Features
