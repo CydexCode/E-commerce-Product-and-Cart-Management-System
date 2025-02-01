@@ -58,13 +58,13 @@ src/
 │   ├── reducers.js
 │   ├── sagas.js
 │   └── store.js
-├── api/
-│   └── index.js
 ├── __tests__/
 │   ├── components/
 │   └── redux/
+├── App.js
+├── index.js
+├── api.js
 ├── styles.css
-└── App.js
 ```
 
 ---
