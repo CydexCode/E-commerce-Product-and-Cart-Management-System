@@ -1,6 +1,11 @@
-# React Shopping Cart Application
+# Product and Cart Management System
 
 A modern shopping cart application built with React, Redux Saga, and Material UI. Features include product listing, cart management, and order processing with a clean, responsive UI.
+
+Demo : 
+
+**User Guid:** [[https://github.com/yourusername/react-shopping-cart](https://github.com/CydexCode/E-commerce-Product-and-Cart-Management-System)]
+
 
 ## Features
 
