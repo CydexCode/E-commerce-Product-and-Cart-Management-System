@@ -24,7 +24,7 @@ Demo :
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/yourusername/react-shopping-cart.git
+git clone https://github.com/CydexCode/E-commerce-Product-and-Cart-Management-System.git
 cd react-shopping-cart
 ```
 
