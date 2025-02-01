@@ -1,0 +1,414 @@
+nav {
+  display: flex;
+  justify-content: center;
+  background: #007bff;
+  padding: 10px;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  margin: 5px 20px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background: #0056b3;
+  border-radius: 5px;
+}
+
+/* Ensure icon and text are properly centered */
+nav a svg {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+/* Optional: Add subtle animation on hover */
+nav a:hover svg {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+/* Global Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Main Container */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Grid Layout for Responsive Cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+
+
+
+/* Product Card Styling */
+.product-card {
+  background: white;
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card h3{
+  margin-top: 10px;
+  margin-bottom: 150px;
+  font-size: 20px;
+}
+
+
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+/* Product Image Placeholder */
+.product-image {
+  width: 100%;
+  height: 180px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Product Details */
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+
+.product-description {
+  color: #555;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2a9d8f;
+  margin-bottom: 8px;
+}
+
+.confirmation-message {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+}
+
+
+.stock {
+  font-size: 13px;
+  color: #777;
+}
+
+.success-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+  animation: slideIn 0.3s ease-out, fadeOut 0.3s ease-out 2.7s;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+
+
+/* Add to Cart Button */
+.add-to-cart-btn {
+  margin: 20px;
+  background-color: #28a745;
+  align-items: center;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #218838;
+}
+
+/* Cart Container */
+.cart-container {
+  margin-top: 30px;
+  width: 60%;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 40px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.cart-container h3{
+  margin: 10px;
+}
+.cart-item {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.quantity-control button {
+  padding: 5px;
+  margin: 0 5px;
+}
+
+/* Remove Button */
+.remove-btn {
+  margin: 15px;
+  background: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.remove-btn:hover {
+  background: darkred;
+}
+
+.confirmation-box {
+  margin: 20px;
+  background: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.confirmation-box button {
+
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.remove-confirmation {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+}
+
+.confirmation-buttons {
+
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+  justify-content: center;
+}
+
+.yes-btn, .no-btn {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.yes-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.yes-btn:hover {
+  background-color: #c82333;
+}
+
+.no-btn {
+  background-color: #6c757d;
+  color: white;
+}
+
+.no-btn:hover {
+  background-color: #5a6268;
+}
+
+.cart-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+
+.place-order-btn{
+  margin: 10px;
+}
+
+/* Order Summary */
+.order-container {
+  width: 60%;
+  margin: auto;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  text-align: center;
+}
+
+.order-summary{
+  margin-top: 20px;
+}
+
+.order-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.order-item h3 {
+  margin: 5px 0;
+  color: #555;
+}
+
+.order-item p {
+  margin: 2px 0;
+  color: #666;
+}
+
+.order-success {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 32px;
+  text-align: center;
+  background-color: #f0fff4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #68d391;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.order-success h2 {
+  color: #2f855a;
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.order-success p {
+  color: #4a5568;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.order-success p:last-child {
+  color: #718096;
+  font-size: 14px;
+  font-style: italic;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* Order Confirmation Message */
+.confirmation-message {
+  color: green;
+  font-weight: bold;
+}
+
+/* Place Order Button */
+.place-order-btn {
+  background-color: #ff9800;
+}
+
+.place-order-btn:hover {
+  background-color: #e68900;
+}
