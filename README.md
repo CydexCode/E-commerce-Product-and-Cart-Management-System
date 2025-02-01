@@ -138,22 +138,18 @@ The application uses a combination of custom CSS and Material UI components. Cus
 
 ---
 
-## Contributing
+## Known Issues
 
-1. Fork the repository
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature/my-feature
-   ```
-3. Commit changes:
-   ```bash
-   git commit -am 'Add new feature'
-   ```
-4. Push to branch:
-   ```bash
-   git push origin feature/my-feature
-   ```
-5. Submit a Pull Request
+- Product images are not being fetched from the backend data entities.
+- Cart state persistence is not implemented; refreshing the page clears the cart.
+
+---
+
+## Limitations
+
+- After placing an order, the user is automatically redirected to the home page without an option to review the order details.
+- No user authentication is implemented; all users share the same session state.
+- The application currently does not support multiple currencies or localization.
 
 ---
 
