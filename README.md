@@ -45,36 +45,6 @@ npm start
 
 ---
 
-## Required Dependencies
-
-```json
-{
-  "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/icons-material": "^5.11.0",
-    "@mui/material": "^5.11.0",
-    "axios": "^1.2.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-redux": "^8.0.5",
-    "react-router-dom": "^6.4.5",
-    "redux": "^4.2.0",
-    "redux-saga": "^1.2.2"
-  },
-  "devDependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.4.3",
-    "jest": "^29.3.1",
-    "redux-mock-store": "^1.5.4",
-    "redux-saga-test-plan": "^4.0.6"
-  }
-}
-```
-
----
-
 ## Project Structure
 
 ```bash
